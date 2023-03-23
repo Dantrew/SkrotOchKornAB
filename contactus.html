@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakta oss</title>
+</head>
+
+<body>
+    <div style="background-color: rgb(206, 240, 255); margin: 30px; padding: 30px;">
+        <ul>
+            <li><a href="index.html">Startsida</a></li>
+            <li><a href="products.html">Produkter</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="personal.html">Vi som jobbar här</a></li>
+            <li><a href="contactus.html">Kontakta oss</a></li>
+        </ul>
+    </div>
+    
+    <div style="background-color: rgb(206, 240, 255); margin: 30px; padding: 30px;">
+        
+        <h1>Kontakta oss</h1>
+        
+        <form action="http://primat.se/services/sendform.aspx?xid=register&xmail=dantrewski@gmail.se" method="post">
+            
+            <label for="name">Namn</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="adress">Adress</label>
+            <input type="text" id="adress" name="adress"><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email"><br>
+            <label for="phonenumber">Telefonnummer</label>
+            <input type="text" id="phonenumber" name="phonenumber"><br><br>
+
+            <input type="radio" name="work" id="private" value="private">
+            <label for="private">Privat</label>
+            <input type="radio" name="work" id="company" value="company">
+            <label for="company">Company</label><br><br>
+
+            <label for="companysize">Storlek på företaget</label><br>
+            <input type="radio" name="companysize" id="tohundred" value="tohundred">
+            <label for="tohundred">1-100</label><br>
+            <input type="radio" name="companysize" id="tothousand" value="tothousand">
+            <label for="tothousand">101-1000</label><br>
+            <input type="radio" name="companysize" id="morethanthousand" value="morethanthousand">
+            <label for="morethanthousand">Över 1000</label><br><br>
+
+            <label for="info">Berätta varför du kontaktar oss.</label><br>
+            <textarea id="info" name="info" rows="5" cols="80"></textarea><br><br>
+
+            <input type="hidden" name="newsletter" value="nej">
+            <input type="checkbox" id="newsletter" name="newsletter" value="ja">
+            <label for="newsletter">Vill du ha nyhetsbrev?</label>
+            <input type="hidden" name="phonecontact" value="nej">
+            <input type="checkbox" id="phonecontact" name="phonecontact" value="ja">
+            <label for="newsletter">Får vi kontakta dig via telefon?</label>
+
+            <br><br><input type="submit" value="Skicka formulär">
+    </div>
+
+    <div style="background-color: rgb(206, 240, 255); margin: 30px; padding: 30px;">
+        <br><iframe src="contactfooter.html" width="350" height="315" style="border: none;"></iframe>
+    </div>
+
+</body>
+
+</html>
