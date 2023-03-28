@@ -6,62 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Produkter</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/products.css">
 </head>
 
 <body>
-    <div style="background-color: rgb(206, 240, 255); margin: 30px; padding: 30px;">
-    <ul>
-        <li><a href="index.html">Startsida</a></li>
-        <li><a href="products.html">Produkter</a></li>
-        <li><a href="media.html">Media</a></li>
-        <li><a href="personal.html">Vi som jobbar här</a></li>
-        <li><a href="contactus.html">Kontakta oss</a></li>
-    </ul>
+    <header>
+        <h1>Produkter</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li><a href="products.html">Produkter</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="personal.html">Vi som jobbar här</a></li>
+                <li><a href="contactus.html">Kontakta oss</a></li>
+            </ul>
+            <img class="logo" src="images/circle.png" />
+        </nav>
+    </header>
+
+    <div class="productinfo">
+        <img class="productpicture" src="images/grävmaskin.jpg"/>
+       
+       <p class="producttext"> Grävmaskin
+        1.000.000 sek
+        1.250.000 sek
+        1000 hk
+        200 ton</p>
+    </div>
+        <div class="productinfo">
+        <img class="productpicture" src="images/lyftkran.jpg"/>
+        
+        <p class="producttext">
+        Lyftkran
+        2.500.000 sek
+        3.125.000 sek
+        2500 hk
+        500 ton</p>
+    </div>
+        <div class="productinfo">
+        <img class="productpicture" src="images/lastbil.jpg"/>
+
+        <p class="producttext">
+        Lastbil
+        5.000.000 sek
+        6.250.000 sek
+        5000 hk
+        30 ton
+    </p>
     </div>
 
-    <div style="background-color: rgb(206, 240, 255); margin: 30px; padding: 30px;">
-    <h1>Produkter</h1>
-    <table border="5">
-        <tr>
-            <td><img src="images/grävmaskin.jpg" width="350" /></td>
-            <td><img src="images/lyftkran.jpg" width="350" /></td>
-            <td><img src="images/lastbil.jpg" width="350" /></td>
-        </tr>
-        <tr>
-            <td>Grävmaskin</td>
-            <td>Lyftkran</td>
-            <td>Lastbil</td>
-        </tr>
-        <tr>
-            <td colspan="3" style="text-align: center;">Exklusive moms</td>
-        </tr>
-        <tr>
-            <td>1.000.000 sek</td>
-            <td>2.500.000 sek</td>
-            <td>5.000.000 sek</td>
-        </tr>
-        <td colspan="3" style="text-align: center;">Inklusive moms</td>
-        <tr>
-            <td>1.250.000 sek</td>
-            <td>3.125.000 sek</td>
-            <td>6.250.000 sek</td>
-        </tr>
-        <tr>
-            <td>1000 hk</td>
-            <td>2500 hk</td>
-            <td>5000 hk</td>
-        </tr>
-        <tr>
-            <td>200 ton</td>
-            <td>500 ton</td>
-            <td>30 ton</td>
-        </tr>
-    </table>
-    </div>
-
-    <div style="background-color: rgb(206, 240, 255); margin: 30px; padding: 30px;">
-    <iframe src="contactfooter.html" width="350" height="315" style="border: none;"></iframe>
-    </div>
+    <footer>
+        <iframe class="footerclass" src="contactfooter.html"></iframe>
+    </footer>
 
 </body>
 
